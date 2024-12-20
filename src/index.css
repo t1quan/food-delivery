@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+   @font-face {
+      font-family: 'BeatriceDeck';
+      src: url('./assets/fonts/BeatriceDeck-Light.woff2') format('woff2');
+      font-weight: 300;
+   }
+
+   @font-face {
+      font-family: 'BeatriceDeck';
+      src: url('./assets/fonts/BeatriceDeck-Regular.woff2') format('woff2');
+      font-weight: 400;
+   }
+
+   @font-face {
+      font-family: 'BeatriceDeck';
+      src: url('./assets/fonts/BeatriceDeck-Medium.woff2') format('woff2');
+      font-weight: 500;
+   }
+
+   @font-face {
+      font-family: 'BeatriceDeck';
+      src: url('./assets/fonts/BeatriceDeck-Semibold.woff2') format('woff2');
+      font-weight: 600;
+   }
+
+   @font-face {
+      font-family: 'BeatriceDeck';
+      src: url('./assets/fonts/BeatriceDeck-Bold.woff2') format('woff2');
+      font-weight: 700;
+   }
+
+   body {
+      @apply font-beatrice text-base bg-white;
+   }
+
+   .inner {
+      @apply px-4 lg:px-12 max-w-7xl mx-auto;
+   }
+
+   img {
+      @apply max-w-full align-middle h-auto;
+   }
+}
