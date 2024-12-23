@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import ReIcon from "../hooks/ReIcon.tsx";
 
 const Footer = () => {
    return (
@@ -17,12 +18,26 @@ const Footer = () => {
             </div>
 
             <div className={`text-center lg:text-left grid w-full gap-y-3 lg:col-span-6 xl:col-span-4`}>
-               <h3 className={`text-[1.125rem] mb-2 lg:pl-6`}>Get Exclusive Deals in your Inbox</h3>
+               <h3 className={`text-[1.125rem] mb-2`}>Get Exclusive Deals in your Inbox</h3>
                <form className={`flex bg-gray rounded-full overflow-hidden h-14 w-full`}>
                   <input placeholder={`youremail@gmail.com`} className={`text-black/60 w-full bg-transparent pl-6 pr-2.5 text-sm outline-none`}/>
                   <button type="submit" className={`rounded-full bg-orange text-white font-medium px-8`}>Subscribe</button>
                </form>
-               <p className={`text-sm lg:pl-6`}>We wont spam, read our <a href={`#`} className={`underline`}>email policy</a></p>
+               <p className={`text-sm`}>We wont spam, read our <a href={`#`} className={`underline`}>email policy</a></p>
+               <div className={`flex gap-x-3.5 mt-4 justify-center lg:justify-start`}>
+                  <a href={`#`}>
+                     <ReIcon name={`RiFacebookCircleFill`} size={40}/>
+                  </a>
+                  <a href={`#`}>
+                     <ReIcon name={`RiInstagramFill`} size={40}/>
+                  </a>
+                  <a href={`#`}>
+                     <ReIcon name={`RiLinkedinBoxFill`} size={40}/>
+                  </a>
+                  <a href={`#`}>
+                     <ReIcon name={`RiGithubFill`} size={40}/>
+                  </a>
+               </div>
             </div>
 
             <div className={`grid sm:grid-cols-2 gap-8 lg:col-span-6 xl:col-span-4`}>
