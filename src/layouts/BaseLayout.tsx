@@ -1,5 +1,6 @@
 import {ReactNode} from "react";
 import Header from "../components/Header.tsx";
+import Footer from "../components/Footer";
 
 const BaseLayout = ({children}: { children: ReactNode }) => {
    return (
@@ -8,6 +9,7 @@ const BaseLayout = ({children}: { children: ReactNode }) => {
          <main className={``}>
             <div className={`inner grid gap-y-40`}>{children}</div>
          </main>
+         <Footer/>
       </div>
    );
 };

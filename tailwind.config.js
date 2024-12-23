@@ -8,15 +8,13 @@ export default {
       extend: {
          fontFamily: {
             'beatrice': 'BeatriceDeck',
+            'poppins': '"Poppins", serif',
          },
-         backgroundImage: {
-            'texture': "url('./src/assets/images/bg_texture.png')",
-         },
-         content: {
-            'gray-10': 'rgba(0, 0, 0, 0.66)',
-            'gray-20': '#d9d9d9',
-            'gray-30': '#5e5e5e',
-            'gray-40': '#a3a3a3',
+         colors: {
+            'black': '#03081F',
+            'orange': '#FC8A06',
+            'green': '#028643',
+            'gray': '#D9D9D9',
          }
       },
    },
