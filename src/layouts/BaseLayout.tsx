@@ -7,7 +7,7 @@ const BaseLayout = ({children}: { children: ReactNode }) => {
       <div id={`base-layout`} className="flex flex-col min-h-screen">
          <Header/>
          <main className={`flex-1`}>
-            <div className={`grid gap-y-12`}>{children}</div>
+            <div className={`grid gap-y-16`}>{children}</div>
          </main>
          <Footer/>
       </div>

@@ -18,7 +18,10 @@ export default {
          },
          backgroundImage: {
             'black-gradient': 'linear-gradient(-149deg, rgba(255, 255, 255, 0) 0%, rgba(3, 8, 31, 0.19) 48%, rgba(3, 8, 31, 0.89) 90%)',
-         }
+         },
+         aspectRatio: {
+            '4/3': '4 / 3',
+         },
       },
    },
    plugins: [],

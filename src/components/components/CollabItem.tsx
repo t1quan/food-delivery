@@ -16,7 +16,7 @@ const CollabItem = ({title, subtitle, link, tag, image}: CollabItemProps) => {
             <div className={`absolute w-full h-full inset-0 bg-black-gradient`}>
             </div>
             <div
-               className={`absolute top-0 left-[7%] font-semibold sm:font-bold text-xs sm:text-base bg-white rounded-b-lg sm:rounded-b-xl px-3.5 sm:px-6 py-1.5 sm:py-3.5`}>
+               className={`absolute top-0 left-[7%] font-bold text-sm sm:text-base bg-white rounded-b-lg sm:rounded-b-xl px-4 sm:px-6 py-2 sm:py-3.5`}>
                {tag}
             </div>
             <div className={`absolute left-[7%] bottom-[7%] text-white`}>

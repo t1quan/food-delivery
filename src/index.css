@@ -36,7 +36,7 @@
    }
 
    body {
-      @apply font-poppins text-base bg-white text-black;
+      @apply font-poppins text-base bg-white text-black leading-normal;
    }
 
    .inner {

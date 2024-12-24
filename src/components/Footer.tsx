@@ -3,7 +3,7 @@ import ReIcon from "./ReIcon.tsx";
 
 const Footer = () => {
    return (
-      <footer className={`bg-gray/60 mt-12`}>
+      <footer className={`bg-gray/60 mt-16`}>
          <div className={`inner grid lg:grid-cols-12 gap-y-16 gap-x-10 py-10 items-start xl:pt-16 xl:pb-12`}>
             <div className={`grid lg:col-span-full xl:col-span-4`}>
                <Link to={`/`}>
@@ -60,7 +60,7 @@ const Footer = () => {
             </div>
          </div>
          <div className={`bg-black text-white text-xs sm:text-sm text-center`}>
-            <div className={`inner py-4`}>
+            <div className={`inner py-5`}>
                <p>Order.uk Copyright 2024, All Rights Reserved.</p>
             </div>
          </div>
