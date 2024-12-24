@@ -1,8 +1,9 @@
+import Collabs from "../components/Collabs.tsx";
+
 const HomePage = () => {
    return (
       <>
-         <section>HomePage</section>
-         <section>HomePage</section>
+         <Collabs/>
       </>
    );
 };

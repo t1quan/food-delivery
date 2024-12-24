@@ -4,10 +4,10 @@ import Footer from "../components/Footer";
 
 const BaseLayout = ({children}: { children: ReactNode }) => {
    return (
-      <div id={`base-layout`} className="grid">
+      <div id={`base-layout`} className="flex flex-col min-h-screen">
          <Header/>
-         <main className={``}>
-            <div className={`inner grid gap-y-40`}>{children}</div>
+         <main className={`flex-1`}>
+            <div className={`grid gap-y-12`}>{children}</div>
          </main>
          <Footer/>
       </div>

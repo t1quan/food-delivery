@@ -15,6 +15,9 @@ export default {
             'orange': '#FC8A06',
             'green': '#028643',
             'gray': '#D9D9D9',
+         },
+         backgroundImage: {
+            'black-gradient': 'linear-gradient(-149deg, rgba(255, 255, 255, 0) 0%, rgba(3, 8, 31, 0.19) 48%, rgba(3, 8, 31, 0.89) 90%)',
          }
       },
    },
